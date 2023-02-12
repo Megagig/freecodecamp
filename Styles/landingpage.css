@@ -1,0 +1,60 @@
+body{
+  font-family: lato,sans-serif;
+  background-color: #eeee;}
+
+  main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+  }
+  /*======Header=======*/
+  #header{
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+    align-items: center;
+    left: 0;
+  right: 0;
+  top:0;
+  background-color: red;
+  }
+
+  .logo{
+    display: flex;
+  }
+
+  #header-img{
+    width: 500px;
+    border-radius: 50%;
+  }
+
+  .nav-bar{
+    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+  .nav-bar li{
+    float: left;
+  }
+  .nav-bar li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .nav-bar li a:hover{
+    background-color: blanchedalmond;
+  }
+  .card{
+    border: 20px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+  }
